@@ -93,7 +93,16 @@ with Holm correction for multiple comparisons.
 
 CellRanger output and processed Seurat objects are archived on **Zenodo**:
 **https://doi.org/10.5281/zenodo.21391578** (restricted access until publication). Raw
-sequencing reads will be deposited to ENA. Download the processed data from Zenodo into `data/`
+sequencing reads are available at the **European Nucleotide Archive (ENA)** under the following
+study accessions:
+
+| ENA accession | Samples | Content | Figure |
+|---|---|---|---|
+| PRJEB97458 | 4 | scRNA-seq | Figure 5 |
+| PRJEB97406 | 10 | Bulk T-cell RNA-seq | Figure 4 |
+| PRJEB97321 | 8 | Tumour sequencing, day 9 | Figure 2 |
+
+Download the processed data from Zenodo into `data/`
 and `saves/` to run the analysis.
 
 > Note: the manuscript's current "Availability of data and materials" section states that
