@@ -1,5 +1,5 @@
 ---
-title: "CD45Neg_dataset_annotation"
+title: "03 - CD45- dataset annotation"
 author: "Dillon Corvino"
 date: "25/01/2024"
 output:
@@ -20,10 +20,10 @@ Built with R version `r getRversion()`
 Annotation stage for the CD45- compartment: immune-contamination removal,
 re-integration, SingleR cluster annotation, SCEVAN copy-number tumor/normal
 calling, and export of the final annotated object to
-`saves/CD45neg_seurat.rds`. This is preprocessing/methods provenance --
-downstream scripts (`manuscript_figures.R`,
-`scripts/archive/03_CD45Neg_exploratory.Rmd`) load that saved object rather
-than re-deriving it. Split out of the original combined
+`saves/CD45neg_seurat.rds`. This is preprocessing/methods provenance -- the
+figure scripts in `scripts/figures/` load that saved object rather than
+re-deriving it. Input: `saves/Preprocessed_CD45Neg.rds` from
+`scripts/01_preprocessing_QC_integration.Rmd`. Split out of the original combined
 `03_CD45Neg_data_analysis.Rmd` on 2026-08-14; the exploratory analyses that
 used to follow this content now live in
 `scripts/archive/03_CD45Neg_exploratory.Rmd`.
