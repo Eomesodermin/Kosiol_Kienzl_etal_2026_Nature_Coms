@@ -1,4 +1,4 @@
-<!-- DOI badge added after the Zenodo release -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24311376.svg)](https://doi.org/10.5281/zenodo.24311376)
 
 # G-quadruplex stabilization by pyridostatin augments the response to anti-PD-1 therapy by modulating the tumor immune microenvironment in mice
 
@@ -106,7 +106,11 @@ Reads were aligned with Cell Ranger 7.1.0 to mm10 (refdata-gex-mm10-2020-A), and
 
 ## Citation
 
-If you use this code, please cite the paper (reference to follow on publication) and this repository (see [`CITATION.cff`](CITATION.cff)).
+If you use this code, please cite the paper (reference to follow on publication) and the archived code:
+
+> Corvino D. *Code for: G-quadruplex stabilization by pyridostatin augments the response to anti-PD-1 therapy by modulating the tumor immune microenvironment in mice* (single-cell RNA-seq analysis). GitHub repository Eomesodermin/Kosiol_Kienzl_etal_2026_Nature_Coms, v1.0.0. Zenodo, 2026. https://doi.org/10.5281/zenodo.24311376
+
+The DOI above refers to v1.0.0, the version used for the manuscript; [10.5281/zenodo.24311375](https://doi.org/10.5281/zenodo.24311375) always resolves to the latest release.
 
 ---
 Analysis code by **Dillon Corvino** · [GitHub](https://github.com/Eomesodermin) · [dilloncorvino.com](https://dilloncorvino.com)
