@@ -1,73 +1,41 @@
-# History files
+# This repository tracks analysis code only.
+# Data, outputs, manuscript files and personal notes stay local.
+
+# ---- data and outputs (processed data on Zenodo, raw reads on ENA) ----
+data/
+saves/
+results/
+SCEVAN_output/
+
+# ---- manuscript, documents and local notes ----
+docs/
+CLAUDE.md
+.claude/
+*.docx
+*.pptx
+*.pdf
+*.xlsx
+
+# ---- R / RStudio ----
 .Rhistory
 .Rapp.history
-
-# Session Data files
 .RData
 .RDataTmp
-
-# User-specific files
 .Ruserdata
-
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-#ignore output 
-results/**/**
-archive/**/**
-SCEVAN_output/**/**
-
-# ignore input data 
-data/**/**
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
+.Renviron
 .Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+*.Rproj
 .httr-oauth
-
-# knitr and R markdown default cache directories
 *_cache/
 /cache/
-
-# Temporary files created by R markdown
 *.utf8.md
 *.knit.md
-
-# R Environment Variables
-.Renviron
-
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
+*.html
 rsconnect/
-# --- OS / editor cruft ---
+
+# ---- OS / editor ----
 .DS_Store
 Thumbs.db
-.Rhistory
-.Rapp.history
-.RData
-.Ruserdata
-.Rproj.user/
-*.Rproj.user
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-
-# large data — on Zenodo (see README); not tracked in git
-data/
-saves/
