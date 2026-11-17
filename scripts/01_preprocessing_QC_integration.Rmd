@@ -1,5 +1,5 @@
 ---
-title: "Nils_dataset_preprocessing"
+title: "01 - Preprocessing, QC and integration"
 author: "Dillon Corvino"
 date: "25/01/2024"
 output:
@@ -16,6 +16,17 @@ editor_options:
 ---
 
 Built with R version `r getRversion()`
+
+Stage 1 of the single-cell analysis (CD45+ and CD45- cells sorted from B16OVA
+tumours, Vehicle vs PDS). Starting from the Cell Ranger (v7.1.0, mm10-2020-A)
+count matrices this notebook removes ambient RNA (SoupX), applies the QC
+filters reported in the Methods (200-5,500 features, 1,000-45,000 UMIs, <10%
+mitochondrial reads, log10GenesPerUMI > 0.8 for CD45+ / > 0.75 for CD45-),
+normalises with SCTransform (v2, regressing out mitochondrial content),
+integrates samples by CCA, and clusters (resolution 0.4, chosen with clustree).
+Output: `saves/Preprocessed_CD45Pos.rds` and `saves/Preprocessed_CD45Neg.rds`,
+used by scripts 02 and 03. Cell Ranger output is on Zenodo
+(doi:10.5281/zenodo.21391578); raw reads are on ENA (PRJEB97458).
 
 ## Setup {.tabset}
 

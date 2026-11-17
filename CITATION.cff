@@ -1,10 +1,17 @@
 cff-version: 1.2.0
-message: "This is unpublished research code. If you use it, please cite this repository."
-title: "Pyridostatin (G-quadruplex stabiliser) and checkpoint blockade in B16 melanoma (single-cell analysis)"
+message: "If you use this code, please cite the associated article and this software."
+title: "Code for: G-quadruplex stabilization by pyridostatin augments the response to anti-PD-1 therapy by modulating the tumor immune microenvironment in mice (single-cell RNA-seq analysis)"
+type: software
 authors:
   - family-names: Corvino
     given-names: Dillon
     orcid: "https://orcid.org/0000-0003-0683-1369"
-type: software
+    affiliation: "Institute of Experimental Oncology, University Hospital Bonn"
 repository-code: "https://github.com/Eomesodermin/Kosiol_etal_pyridostatin_melanoma"
-url: "https://dilloncorvino.com"
+license: MIT
+keywords:
+  - single-cell RNA-seq
+  - G-quadruplex
+  - pyridostatin
+  - melanoma
+  - immune checkpoint blockade
